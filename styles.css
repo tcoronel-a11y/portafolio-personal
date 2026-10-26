@@ -1,0 +1,182 @@
+
+:root {
+    --color-principal: #17324d;
+    --color-secundario: #256d85;
+    --color-fondo: #f4f7fb;
+    --color-superficie: #ffffff;
+    --color-texto: #263238;
+    --color-acento: #e6a23c;
+    --sombra: 0 4px 14px rgba(23, 50, 77, 0.12);
+    --radio: 12px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: var(--color-texto);
+    background-color: var(--color-fondo);
+}
+
+header {
+    background-color: var(--color-principal);
+    padding: 18px 24px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 22px;
+}
+
+nav a {
+    color: var(--color-superficie);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s ease;
+}
+
+nav a:hover {
+    color: var(--color-acento);
+}
+
+main {
+    width: min(100% - 32px, 1000px);
+    margin: 32px auto;
+}
+
+section {
+    margin-bottom: 28px;
+    padding: 28px;
+    background-color: var(--color-superficie);
+    border-radius: var(--radio);
+    box-shadow: var(--sombra);
+}
+
+#inicio {
+    padding: 48px 28px;
+    text-align: center;
+    background-color: var(--color-principal);
+    color: var(--color-superficie);
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.25;
+}
+
+h2 {
+    color: var(--color-secundario);
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding-left: 20px;
+}
+
+li {
+    margin-right: 12px;
+}
+
+article {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #dbe4ed;
+    border-radius: var(--radio);
+}
+
+article img {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 16px 0;
+    border-radius: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    font: inherit;
+    border: 1px solid #bdc9d5;
+    border-radius: 8px;
+}
+
+input:focus,
+textarea:focus {
+    outline: 2px solid var(--color-secundario);
+    outline-offset: 2px;
+}
+
+button {
+    align-self: flex-start;
+    padding: 12px 24px;
+    color: var(--color-superficie);
+    background-color: var(--color-secundario);
+    border: none;
+    border-radius: 8px;
+    font: inherit;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: var(--color-principal);
+}
+
+a {
+    overflow-wrap: anywhere;
+}
+
+footer {
+    padding: 24px;
+    text-align: center;
+    color: var(--color-superficie);
+    background-color: var(--color-principal);
+}
+
+footer a {
+    color: var(--color-acento);
+}
+
+footer a:hover {
+    color: var(--color-superficie);
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 16px;
+    }
+
+    nav {
+        gap: 12px;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    #inicio {
+        padding: 32px 20px;
+    }
+}
