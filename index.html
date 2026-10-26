@@ -11,7 +11,7 @@
 <body>
 
     <header>
-        <nav aria-label="Navegación principal">
+        <nav class="menu-principal" aria-label="Navegación principal">
             <a href="#inicio">Inicio</a>
             <a href="#sobre-mi">Sobre mí</a>
             <a href="#habilidades">Habilidades</a>
@@ -21,7 +21,13 @@
     </header>
 
     <main>
-        <section id="inicio">
+                        <section id="inicio" class="seccion-principal">
+            <img
+                class="imagen-principal"
+                src="img/portafolio.svg"
+                alt="Ilustración representativa de mi portafolio personal"
+                width="220"
+            >
             <h1>Hola, soy Thiago André Coronel Rodas</h1>
             <p>Estudiante de Ingeniería en Sistemas Inteligentes.</p>
             <p>
@@ -42,7 +48,7 @@
 
         <section id="habilidades">
             <h2>Mis habilidades</h2>
-            <ul>
+            <ul class="lista-habilidades">
                 <li>CSS</li>
                 <li>GitHub</li>
                 <li>Diseño web</li>
@@ -54,7 +60,7 @@
         <section id="proyectos">
             <h2>Mis proyectos</h2>
 
-            <article>
+            <article class="tarjeta-proyecto">
                 <h3>Proyecto 1: Mi portafolio personal</h3>
                 <img
                     src="img/portafolio.svg"
@@ -68,7 +74,7 @@
                 </p>
             </article>
 
-            <article>
+            <article class="tarjeta-proyecto">
                 <h3>Proyecto 2: Diseño de una página web</h3>
                 <img
                     src="img/proyecto-web.svg"
@@ -97,7 +103,7 @@
                 </a>
             </p>
 
-            <form aria-label="Formulario de contacto"></form>
+            <form class="formulario-contacto" aria-label="Formulario de contacto">
                 <label for="nombre">Nombre:</label>
                 <input
                     type="text"
@@ -125,7 +131,7 @@
                     required
                 ></textarea>
 
-                <button type="button">Enviar</button>
+                <button class="boton-enviar" type="button">Enviar</button>
             </form>
         </section>
     </main>

@@ -31,21 +31,23 @@ header {
     padding: 18px 24px;
 }
 
-nav {
+
+.menu-principal {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 22px;
 }
 
-nav a {
+
+.menu-principal a {
     color: var(--color-superficie);
     text-decoration: none;
     font-weight: bold;
     transition: color 0.2s ease;
 }
 
-nav a:hover {
+.menu-principal a:hover {
     color: var(--color-acento);
 }
 
@@ -62,7 +64,7 @@ section {
     box-shadow: var(--sombra);
 }
 
-#inicio {
+.seccion-principal {
     padding: 48px 28px;
     text-align: center;
     background-color: var(--color-principal);
@@ -79,7 +81,7 @@ h2 {
     color: var(--color-secundario);
 }
 
-ul {
+.lista-habilidades {
     display: flex;
     flex-wrap: wrap;
     gap: 12px;
@@ -90,7 +92,7 @@ li {
     margin-right: 12px;
 }
 
-article {
+.tarjeta-proyecto {
     margin-top: 20px;
     padding: 20px;
     border: 1px solid #dbe4ed;
@@ -106,7 +108,7 @@ article img {
     border-radius: 8px;
 }
 
-form {
+.formulario-contacto {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -127,7 +129,7 @@ textarea:focus {
     outline-offset: 2px;
 }
 
-button {
+.boton-enviar {
     align-self: flex-start;
     padding: 12px 24px;
     color: var(--color-superficie);
@@ -140,7 +142,7 @@ button {
     transition: background-color 0.2s ease;
 }
 
-button:hover {
+.boton-enviar:hover {
     background-color: var(--color-principal);
 }
 
@@ -168,7 +170,7 @@ footer a:hover {
         padding: 16px;
     }
 
-    nav {
+    .menu-principal {
         gap: 12px;
     }
 
@@ -176,7 +178,7 @@ footer a:hover {
         padding: 20px;
     }
 
-    #inicio {
+    .seccion-principal {
         padding: 32px 20px;
     }
 }
