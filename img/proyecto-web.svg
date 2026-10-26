@@ -1,0 +1,15 @@
+ <svg xmlns="http://www.w3.org/2000/svg" width="600" height="350" viewBox="0 0 600 350">
+    <rect width="600" height="350" rx="20" fill="#f4f7fb"/>
+    <rect x="70" y="45" width="460" height="260" rx="14" fill="#ffffff" stroke="#17324d" stroke-width="4"/>
+    <rect x="70" y="45" width="460" height="48" rx="12" fill="#17324d"/>
+    <circle cx="95" cy="69" r="7" fill="#e6a23c"/>
+    <circle cx="118" cy="69" r="7" fill="#ffffff"/>
+    <circle cx="141" cy="69" r="7" fill="#256d85"/>
+    <rect x="100" y="115" width="400" height="28" rx="6" fill="#dce8f0"/>
+    <rect x="100" y="160" width="180" height="105" rx="8" fill="#256d85"/>
+    <rect x="300" y="160" width="200" height="12" rx="6" fill="#17324d"/>
+    <rect x="300" y="184" width="165" height="9" rx="4" fill="#a9bdcc"/>
+    <rect x="300" y="205" width="185" height="9" rx="4" fill="#a9bdcc"/>
+    <rect x="300" y="226" width="135" height="9" rx="4" fill="#a9bdcc"/>
+    <text x="300" y="289" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#17324d">Diseño de página web</text>
+</svg>

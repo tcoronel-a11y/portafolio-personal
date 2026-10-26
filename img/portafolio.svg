@@ -1,0 +1,15 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="350" viewBox="0 0 600 350">
+    <rect width="600" height="350" rx="20" fill="#f4f7fb"/>
+    <rect x="70" y="45" width="460" height="260" rx="14" fill="#ffffff" stroke="#17324d" stroke-width="4"/>
+    <rect x="70" y="45" width="460" height="48" rx="12" fill="#17324d"/>
+    <circle cx="95" cy="69" r="7" fill="#e6a23c"/>
+    <circle cx="118" cy="69" r="7" fill="#ffffff"/>
+    <circle cx="141" cy="69" r="7" fill="#256d85"/>
+    <rect x="110" y="125" width="380" height="35" rx="8" fill="#256d85"/>
+    <rect x="110" y="180" width="175" height="80" rx="8" fill="#dce8f0"/>
+    <rect x="305" y="180" width="185" height="12" rx="6" fill="#17324d"/>
+    <rect x="305" y="205" width="150" height="10" rx="5" fill="#a9bdcc"/>
+    <rect x="305" y="228" width="170" height="10" rx="5" fill="#a9bdcc"/>
+    <text x="300" y="285" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#17324d">Mi portafolio personal</text>
+</svg>
